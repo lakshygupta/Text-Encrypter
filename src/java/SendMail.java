@@ -39,8 +39,8 @@ public class SendMail {
         /* Pass Properties object(props) and Authenticator object   
            for authentication to Session instance 
         */
-        final String user = "hangboxlakshy@gmail.com";
-        final String pass = "hangbox12";
+        final String user = "";
+        final String pass = "";
         
         Session session = Session.getInstance(props,new javax.mail.Authenticator()
         {
